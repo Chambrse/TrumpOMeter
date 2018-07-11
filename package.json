@@ -1,0 +1,34 @@
+{
+  "name": "trumpometer",
+  "version": "1.0.0",
+  "description": "An app designed to guage President Donald Trumps mood by analyzing his most recent tweets.",
+  "main": "trumpMeter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chambrse/TrumpOMeter.git"
+  },
+  "keywords": [
+    "Trump",
+    "mood",
+    "analyzer",
+    "twitter",
+    "qemotion"
+  ],
+  "author": "Shane Chambry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chambrse/TrumpOMeter/issues"
+  },
+  "homepage": "https://github.com/Chambrse/TrumpOMeter#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "dotenv": "^6.0.0",
+    "request": "^2.87.0",
+    "twitter": "^1.7.1",
+    "underscore": "^1.9.1",
+    "watson-developer-cloud": "^3.5.3"
+  }
+}
