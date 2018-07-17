@@ -26,6 +26,7 @@
   "dependencies": {
     "async": "^2.6.1",
     "dotenv": "^6.0.0",
+    "indico.io": "^0.10.5",
     "request": "^2.87.0",
     "twitter": "^1.7.1",
     "underscore": "^1.9.1",
