@@ -5,8 +5,6 @@ exports.twitter = {
     access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET
   };
 
-exports.IBM = {
-    version: '2017-09-21',
-    username: process.env.IBM_USERNAME,
-    password: process.env.IBM_PASSWORD
-};
+exports.indico = {
+    api_key: process.env.INDICO_API_KEY
+}
